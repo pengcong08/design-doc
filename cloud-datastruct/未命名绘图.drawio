@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T03:14:45.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="7i997u7ORcg46NcFsLJt" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-06T03:14:59.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="QRZjuK0Lf2i4MXq6j_4y" version="20.6.2" type="github">
   <diagram id="1bny-kd-aG_qWNULpiLh" name="第 1 页">
     <mxGraphModel dx="2377" dy="2004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -173,7 +173,7 @@
           <mxGeometry y="198" width="370" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-71" value="Wallet" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="2220" width="370" height="162" as="geometry" />
+          <mxGeometry x="-290" y="2363" width="370" height="162" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-72" value="TenantId string //租户id&#xa;	Balance string //余额&#xa;	CumulativeRechargeAmount string //累计充值金额" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4_Z-v-eUMZZP_KY4kg9S-71">
           <mxGeometry y="26" width="370" height="74" as="geometry" />
@@ -185,7 +185,7 @@
           <mxGeometry y="108" width="370" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-75" value="RechargeRecord" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="210" y="2210" width="370" height="142" as="geometry" />
+          <mxGeometry x="210" y="2353" width="370" height="142" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-76" value="TenantId string //租户Id&#xa;	Recharge string //充值金额" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4_Z-v-eUMZZP_KY4kg9S-75">
           <mxGeometry y="26" width="370" height="54" as="geometry" />
@@ -197,7 +197,7 @@
           <mxGeometry y="88" width="370" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-79" value="Consumption" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="2480" width="370" height="142" as="geometry" />
+          <mxGeometry x="-310" y="2623" width="370" height="142" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-80" value="TenantId string //租户ID&#xa;	CommodityId string //购买的商品id,商品里边包含站点信息&#xa;	ConsumptionAmount string //消费金额	" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4_Z-v-eUMZZP_KY4kg9S-79">
           <mxGeometry y="26" width="370" height="54" as="geometry" />
@@ -209,7 +209,7 @@
           <mxGeometry y="88" width="370" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-83" value="Invoice" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="2490" width="370" height="142" as="geometry" />
+          <mxGeometry x="170" y="2633" width="370" height="142" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-84" value="ConsumptionId []string//商品IDs&#xa;	Amount string //总金额" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4_Z-v-eUMZZP_KY4kg9S-83">
           <mxGeometry y="26" width="370" height="54" as="geometry" />
