@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T03:25:25.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="dSvISOmvGNYoBUEthtsZ" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-06T03:26:58.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="v5M-Ax533cQNoMggS9lE" version="20.6.2" type="github">
   <diagram id="1bny-kd-aG_qWNULpiLh" name="第 1 页">
     <mxGraphModel dx="2377" dy="2004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -113,7 +113,7 @@
           <mxGeometry y="88" width="370" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-51" value="StorageResource" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="1870" width="370" height="172" as="geometry" />
+          <mxGeometry x="-346" y="1870" width="370" height="172" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-52" value="TenantId string&#xa;StorageId string&#xa;StorageType string&#xa;CloudAccount string&#xa;Size string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4_Z-v-eUMZZP_KY4kg9S-51">
           <mxGeometry y="26" width="370" height="84" as="geometry" />
@@ -243,6 +243,36 @@
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-94" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4_Z-v-eUMZZP_KY4kg9S-91">
           <mxGeometry y="168" width="370" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4_Z-v-eUMZZP_KY4kg9S-95" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4_Z-v-eUMZZP_KY4kg9S-88" target="4_Z-v-eUMZZP_KY4kg9S-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="1780" as="sourcePoint" />
+            <mxPoint x="150" y="1730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_Z-v-eUMZZP_KY4kg9S-96" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4_Z-v-eUMZZP_KY4kg9S-88" target="4_Z-v-eUMZZP_KY4kg9S-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="1750" as="sourcePoint" />
+            <mxPoint x="430" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_Z-v-eUMZZP_KY4kg9S-98" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.001;entryY=0.403;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4_Z-v-eUMZZP_KY4kg9S-64" target="4_Z-v-eUMZZP_KY4kg9S-92">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="1620" as="sourcePoint" />
+            <mxPoint x="620" y="1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_Z-v-eUMZZP_KY4kg9S-99" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4_Z-v-eUMZZP_KY4kg9S-64" target="4_Z-v-eUMZZP_KY4kg9S-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="1770" as="sourcePoint" />
+            <mxPoint x="540" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_Z-v-eUMZZP_KY4kg9S-100" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.43;exitY=0.985;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4_Z-v-eUMZZP_KY4kg9S-90" target="4_Z-v-eUMZZP_KY4kg9S-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-190" y="1840" as="sourcePoint" />
+            <mxPoint x="-140" y="1790" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
