@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T06:11:20.280Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="1pMDVfIs9DFe68e9Pd3Y" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-06T06:59:53.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="0lvfh7OgPk-ko5esuUX4" version="20.6.2" type="github">
   <diagram id="1bny-kd-aG_qWNULpiLh" name="第 1 页">
-    <mxGraphModel dx="2651" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3041" dy="1193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-1" value="ProviderType(支持接入的云类型)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="30" width="370" height="182" as="geometry" />
+          <mxGeometry x="43" y="80" width="370" height="182" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-2" value="+ Name string //eg.华为公有云&#xa;+ Type string //eg.云上栏山,视频超算，原型机房&#xa;+ SubType string //eg.localcloud publiccloud&#xa;//是否接入，这里关闭，需要判断这个云上有没有资源已经被创建了&#xa;+ Accessible bool " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4_Z-v-eUMZZP_KY4kg9S-1">
           <mxGeometry y="26" width="370" height="94" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry y="128" width="370" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-18" value="Audit(商品审核)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-346" y="1150" width="370" height="202" as="geometry" />
+          <mxGeometry x="-413" y="1070" width="370" height="202" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-19" value="CommodityId string //商品id (CommodityName,CommodityType,flavor(规格))&#xa;	Operator string //操作类型，上架下家&#xa;	CommiterId string //申请人&#xa;	Status string //审批状态&#xa;	StatusTime string //审批时间&#xa;	AuditorId string //审批人&#xa;	Message string // 审批备注" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4_Z-v-eUMZZP_KY4kg9S-18">
           <mxGeometry y="26" width="370" height="114" as="geometry" />
@@ -53,7 +53,7 @@
           <mxGeometry y="188" width="370" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-31" value="CloudHostCapacity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="290" width="370" height="242" as="geometry" />
+          <mxGeometry x="-250" y="320" width="370" height="242" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-32" value="ExternalID string&#xa;	HostName string&#xa;	CPU int&#xa;	RAM int&#xa;	GPU int&#xa;	SystemSSD int&#xa;	DataHDD int&#xa;	CPUType string&#xa;	GPUType string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4_Z-v-eUMZZP_KY4kg9S-31">
           <mxGeometry y="26" width="370" height="154" as="geometry" />
@@ -65,7 +65,7 @@
           <mxGeometry y="188" width="370" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-35" value="CloudStorageCapacity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="680" width="370" height="152" as="geometry" />
+          <mxGeometry x="-230" y="600" width="370" height="152" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-36" value="count int&#xa;StorageTyppe string&#xa;cloudAccount string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4_Z-v-eUMZZP_KY4kg9S-35">
           <mxGeometry y="26" width="370" height="64" as="geometry" />
@@ -77,7 +77,7 @@
           <mxGeometry y="98" width="370" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-39" value="CloudEIPCapacity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="310" width="370" height="152" as="geometry" />
+          <mxGeometry x="619" y="310" width="370" height="152" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-40" value="Count int&#xa;Bindwidth int&#xa;CloudAccount string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4_Z-v-eUMZZP_KY4kg9S-39">
           <mxGeometry y="26" width="370" height="64" as="geometry" />
@@ -89,7 +89,7 @@
           <mxGeometry y="98" width="370" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-43" value="CloudNatCapacity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="720" width="370" height="162" as="geometry" />
+          <mxGeometry x="599" y="670" width="370" height="162" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-44" value="count int&#xa;NatType string&#xa;CloudAccount string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4_Z-v-eUMZZP_KY4kg9S-43">
           <mxGeometry y="26" width="370" height="74" as="geometry" />
@@ -101,7 +101,7 @@
           <mxGeometry y="108" width="370" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-47" value="CloudVpcCapacity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="490" width="370" height="142" as="geometry" />
+          <mxGeometry x="619" y="490" width="370" height="142" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-48" value="Count int&#xa;VpcType string&#xa;CloudAccount string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4_Z-v-eUMZZP_KY4kg9S-47">
           <mxGeometry y="26" width="370" height="54" as="geometry" />
@@ -113,7 +113,7 @@
           <mxGeometry y="88" width="370" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-51" value="StorageResource" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-346" y="1870" width="370" height="172" as="geometry" />
+          <mxGeometry x="-386" y="1870" width="370" height="172" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-52" value="TenantId string&#xa;StorageId string&#xa;StorageType string&#xa;CloudAccount string&#xa;Size string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4_Z-v-eUMZZP_KY4kg9S-51">
           <mxGeometry y="26" width="370" height="84" as="geometry" />
@@ -161,7 +161,7 @@
           <mxGeometry y="108" width="370" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-67" value="InstanceFlavor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="850" width="370" height="252" as="geometry" />
+          <mxGeometry x="170" y="818" width="370" height="252" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-68" value="Id string&#xa;	Name string&#xa;CloudType string&#xa;Category string&#xa;	Vcpus int&#xa;	Ram int64&#xa;	Disk int64&#xa;	GPU int&#xa;	CpuArch string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4_Z-v-eUMZZP_KY4kg9S-67">
           <mxGeometry y="26" width="370" height="164" as="geometry" />
@@ -173,7 +173,7 @@
           <mxGeometry y="198" width="370" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-71" value="Wallet" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="2660" width="370" height="162" as="geometry" />
+          <mxGeometry x="-370" y="2660" width="370" height="162" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-72" value="TenantId string //租户id&#xa;	Balance string //余额&#xa;	CumulativeRechargeAmount string //累计充值金额" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4_Z-v-eUMZZP_KY4kg9S-71">
           <mxGeometry y="26" width="370" height="74" as="geometry" />
@@ -221,7 +221,7 @@
           <mxGeometry y="88" width="370" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-87" value="InstanceResource" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="1578" width="370" height="172" as="geometry" />
+          <mxGeometry x="-360" y="1470" width="370" height="172" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-88" value="TenantId string&#xa;StorageId string&#xa;StorageType string&#xa;CloudAccount string&#xa;Size string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4_Z-v-eUMZZP_KY4kg9S-87">
           <mxGeometry y="26" width="370" height="84" as="geometry" />
@@ -310,14 +310,14 @@
             <mxPoint x="360" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4_Z-v-eUMZZP_KY4kg9S-107" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4_Z-v-eUMZZP_KY4kg9S-27" target="4_Z-v-eUMZZP_KY4kg9S-2">
+        <mxCell id="4_Z-v-eUMZZP_KY4kg9S-107" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.517;entryY=1.05;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="4_Z-v-eUMZZP_KY4kg9S-27" target="4_Z-v-eUMZZP_KY4kg9S-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="250" as="sourcePoint" />
             <mxPoint x="390" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-108" value="Tenant" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="2430" width="370" height="162" as="geometry" />
+          <mxGeometry x="90" y="2330" width="370" height="162" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-109" value="TenantId string //租户id&#xa;Role string&#xa;Name string&#xa;Type string // eg.saas&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4_Z-v-eUMZZP_KY4kg9S-108">
           <mxGeometry y="26" width="370" height="74" as="geometry" />
