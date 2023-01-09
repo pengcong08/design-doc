@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T05:54:22.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="cPSaK02C1uQtqtypuBW1" version="20.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-09T05:57:26.496Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="kbn70e8kb4zeJ7DMEjbM" version="20.6.2" type="github" pages="2">
   <diagram id="1bny-kd-aG_qWNULpiLh" name="第 1 页">
     <mxGraphModel dx="2377" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -436,9 +436,9 @@
           <mxGeometry x="241" y="800" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-23" value="render-job scheduler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="241" y="600" width="120" height="40" as="geometry" />
+          <mxGeometry x="241" y="600" width="199" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.146;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-23" target="QNCpgvojgTOF3lNCObod-19">
+        <mxCell id="QNCpgvojgTOF3lNCObod-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.142;exitY=1.015;exitDx=0;exitDy=0;entryX=0.146;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-23" target="QNCpgvojgTOF3lNCObod-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="730" as="sourcePoint" />
             <mxPoint x="410" y="680" as="targetPoint" />
@@ -447,14 +447,14 @@
         <mxCell id="QNCpgvojgTOF3lNCObod-25" value="1.watch RenderJob" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="660" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.206;exitY=0.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-19" target="QNCpgvojgTOF3lNCObod-23">
+        <mxCell id="QNCpgvojgTOF3lNCObod-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.166;exitY=0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-19" target="QNCpgvojgTOF3lNCObod-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="740" as="sourcePoint" />
             <mxPoint x="480" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-27" value="2.RenderJob create event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="680" width="190" height="30" as="geometry" />
+        <mxCell id="QNCpgvojgTOF3lNCObod-27" value="3.RenderJob create event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="670" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.312;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.313;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-19" target="QNCpgvojgTOF3lNCObod-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -473,6 +473,18 @@
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-31" value="2.create vm resource" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="800" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.027;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-33" target="QNCpgvojgTOF3lNCObod-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="149" y="830" as="sourcePoint" />
+            <mxPoint x="140" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-33" value="kubectl create render job" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="87" y="830" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-34" value="2.create RenderJob" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="770" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
