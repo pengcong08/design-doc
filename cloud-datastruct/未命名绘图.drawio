@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T06:08:01.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="P6qbfrTjNFrsOp6JaKAE" version="20.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-09T06:09:27.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="bY6KeOrMthUupb97PfaI" version="20.6.2" type="github" pages="2">
   <diagram id="1bny-kd-aG_qWNULpiLh" name="第 1 页">
     <mxGraphModel dx="2377" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -530,6 +530,12 @@
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-46" value="10 .create vm instance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1070" y="680" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-47" value="资源池(只针对自研IAAS)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="579.5" y="490" width="107" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-48" value="主机这种商品" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="751.5" y="490" width="107" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
