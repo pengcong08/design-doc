@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T06:11:07.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="WQAio8I4w-7WSYus_5jc" version="20.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-09T06:14:00.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Y-01z-RGeQkaZDRkcBUV" version="20.6.2" type="github" pages="2">
   <diagram id="1bny-kd-aG_qWNULpiLh" name="第 1 页">
     <mxGraphModel dx="2377" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -402,10 +402,10 @@
             <mxPoint x="1044" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-15" value="resource pool info" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="QNCpgvojgTOF3lNCObod-15" value="resource pool info" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="520" width="126" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-16" value="sku info" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="QNCpgvojgTOF3lNCObod-16" value="sku info" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="520" width="170" height="28" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-2" target="QNCpgvojgTOF3lNCObod-15">
@@ -519,7 +519,7 @@
             <mxPoint x="341" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-44" value="rendering prior info" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="QNCpgvojgTOF3lNCObod-44" value="rendering prior info" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="277.5" y="520" width="126" height="28" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -536,6 +536,12 @@
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-48" value="主机这种商品" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="751.5" y="490" width="107" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-49" value="商品model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="570" width="107" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-50" value="vm model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="570" width="107" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
