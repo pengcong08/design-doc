@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T06:14:00.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Y-01z-RGeQkaZDRkcBUV" version="20.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-09T06:15:18.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Lu-6Y9YJAEwaz-hWXhd8" version="20.6.2" type="github" pages="2">
   <diagram id="1bny-kd-aG_qWNULpiLh" name="第 1 页">
     <mxGraphModel dx="2377" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -360,7 +360,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QNCpgvojgTOF3lNCObod-2" value="vm scheduler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="QNCpgvojgTOF3lNCObod-2" value="vm scheduler&lt;br&gt;vm需要调度到哪一个云上" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="630" y="600" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-3" value="provider(k8s kubelet)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
@@ -435,7 +435,7 @@
         <mxCell id="QNCpgvojgTOF3lNCObod-22" value="1.watch schedulerd RenderJob" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="241" y="800" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-23" value="render-job scheduler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="QNCpgvojgTOF3lNCObod-23" value="render-job scheduler&lt;br&gt;这个job需要?台?样的商品渲染" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="241" y="600" width="199" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.142;exitY=1.015;exitDx=0;exitDy=0;entryX=0.146;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-23" target="QNCpgvojgTOF3lNCObod-19">
@@ -538,10 +538,7 @@
           <mxGeometry x="751.5" y="490" width="107" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-49" value="商品model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="570" width="107" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-50" value="vm model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="210" y="570" width="107" height="30" as="geometry" />
+          <mxGeometry x="341.5" y="570" width="107" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
