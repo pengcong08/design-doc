@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T05:30:31.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="hSWSTlb7mJWVK1v6XCvq" version="20.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-09T05:52:51.887Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="JRw-W3sguM8fNDS5DNMO" version="20.6.2" type="github" pages="2">
   <diagram id="1bny-kd-aG_qWNULpiLh" name="第 1 页">
     <mxGraphModel dx="2377" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -360,83 +360,119 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QNCpgvojgTOF3lNCObod-1" value="kube-apiserver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="130" y="378" width="1020" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-2" value="scheduler(k8s scheduler)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="198" y="228" width="170" height="60" as="geometry" />
+        <mxCell id="QNCpgvojgTOF3lNCObod-2" value="vm scheduler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="630" y="600" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-3" value="provider(k8s kubelet)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="559" y="226" width="170" height="60" as="geometry" />
+          <mxGeometry x="970" y="590" width="149" height="45.99" as="geometry" />
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.15;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-2" target="QNCpgvojgTOF3lNCObod-1">
+        <mxCell id="QNCpgvojgTOF3lNCObod-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.115;exitY=1.023;exitDx=0;exitDy=0;entryX=0.514;entryY=0.033;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-2" target="QNCpgvojgTOF3lNCObod-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="278" as="sourcePoint" />
-            <mxPoint x="288" y="378" as="targetPoint" />
+            <mxPoint x="630" y="338" as="sourcePoint" />
+            <mxPoint x="743.75" y="437.4000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-5" value="1.watch unschedulerd vm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="298" width="150" height="30" as="geometry" />
+          <mxGeometry x="510" y="660" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-7" target="QNCpgvojgTOF3lNCObod-1">
+        <mxCell id="QNCpgvojgTOF3lNCObod-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.872;entryY=-0.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-3" target="QNCpgvojgTOF3lNCObod-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640" y="278" as="sourcePoint" />
-            <mxPoint x="720" y="328" as="targetPoint" />
+            <mxPoint x="1030" y="627.99" as="sourcePoint" />
+            <mxPoint x="1030" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-7" value="1.watch&amp;nbsp; schedulerd on vm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="288" width="150" height="30" as="geometry" />
+          <mxGeometry x="890" y="660" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-8" value="kubectl/http" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="121" y="477" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.052;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-8" target="QNCpgvojgTOF3lNCObod-1">
+        <mxCell id="QNCpgvojgTOF3lNCObod-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.597;exitY=-0.02;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-19" target="QNCpgvojgTOF3lNCObod-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="100" y="478" as="sourcePoint" />
-            <mxPoint x="150" y="428" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-10" value="2.create vm source(k8s pod)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="178" y="438" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.192;exitY=0.053;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-1" target="QNCpgvojgTOF3lNCObod-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="508" as="sourcePoint" />
-            <mxPoint x="350" y="458" as="targetPoint" />
+            <mxPoint x="777.5000000000005" y="438" as="sourcePoint" />
+            <mxPoint x="780" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-12" value="2.vm resource created event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="338" width="150" height="30" as="geometry" />
+          <mxGeometry x="670" y="670" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-13" value="3 .vm resource schedulerd event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="675" y="338" width="150" height="30" as="geometry" />
+          <mxGeometry x="1065" y="687.99" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.668;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.531;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-1" target="QNCpgvojgTOF3lNCObod-3">
+        <mxCell id="QNCpgvojgTOF3lNCObod-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.725;exitY=-0.047;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="650" y="508" as="sourcePoint" />
-            <mxPoint x="700" y="458" as="targetPoint" />
+            <mxPoint x="1063.75" y="726.5799999999999" as="sourcePoint" />
+            <mxPoint x="1064" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-15" value="resource pool info" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="110" y="120" width="170" height="60" as="geometry" />
+          <mxGeometry x="570" y="520" width="126" height="28" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-16" value="sku info" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="320" y="120" width="170" height="60" as="geometry" />
+          <mxGeometry x="720" y="520" width="170" height="28" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-2" target="QNCpgvojgTOF3lNCObod-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="230" as="sourcePoint" />
-            <mxPoint x="250" y="180" as="targetPoint" />
+            <mxPoint x="660" y="290" as="sourcePoint" />
+            <mxPoint x="710" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-2" target="QNCpgvojgTOF3lNCObod-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="260" as="sourcePoint" />
-            <mxPoint x="460" y="210" as="targetPoint" />
+            <mxPoint x="870" y="320" as="sourcePoint" />
+            <mxPoint x="920" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-19" value="cloud-apiserver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="121" y="730" width="1020" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-20" value="render-controller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="346" y="840" width="304" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.108;exitY=-0.005;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-20" target="QNCpgvojgTOF3lNCObod-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="850" as="sourcePoint" />
+            <mxPoint x="216" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-22" value="1.watch schedulerd RenderJob" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="241" y="800" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-23" value="render-job scheduler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="241" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.146;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-23" target="QNCpgvojgTOF3lNCObod-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="730" as="sourcePoint" />
+            <mxPoint x="410" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-25" value="1.watch RenderJob" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="660" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.206;exitY=0.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-19" target="QNCpgvojgTOF3lNCObod-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="740" as="sourcePoint" />
+            <mxPoint x="480" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-27" value="2.RenderJob create event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="680" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.312;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="880" as="sourcePoint" />
+            <mxPoint x="439" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-29" value="2.RenderJob updated event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="770" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.442;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QNCpgvojgTOF3lNCObod-20" target="QNCpgvojgTOF3lNCObod-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="990" as="sourcePoint" />
+            <mxPoint x="560" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QNCpgvojgTOF3lNCObod-31" value="2.create vm resource" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="800" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
