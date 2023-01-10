@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-10T07:56:55.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="MqZWwQTocmY13AtPPoQD" version="20.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-10T07:59:47.988Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="qRgl3UEYkS3IMQBe-a_Z" version="20.6.2" type="github" pages="2">
   <diagram id="1bny-kd-aG_qWNULpiLh" name="第 1 页">
     <mxGraphModel dx="2377" dy="1948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -359,7 +359,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-1" value="ProviderType(支持接入的云类型)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="175.5" y="-827" width="370" height="182" as="geometry" />
+          <mxGeometry x="460" y="-1080" width="370" height="182" as="geometry" />
         </mxCell>
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-2" value="+ Name string //eg.华为公有云&#xa;+ Type string //eg.云上栏山,视频超算，原型机房&#xa;+ SubType string //eg.localcloud publiccloud&#xa;//是否接入，这里关闭，需要判断这个云上有没有资源已经被创建了&#xa;+ Accessible bool " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Jaq5Eet6aUMGzFKZuMRR-1">
           <mxGeometry y="26" width="370" height="94" as="geometry" />
@@ -490,11 +490,11 @@
             <mxPoint x="355.5" y="-167" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jaq5Eet6aUMGzFKZuMRR-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.517;entryY=1.05;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" source="Jaq5Eet6aUMGzFKZuMRR-9" target="Jaq5Eet6aUMGzFKZuMRR-4" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="335.5" y="-677" as="sourcePoint" />
-            <mxPoint x="385.5" y="-727" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Jaq5Eet6aUMGzFKZuMRR-44" value="ProviderType" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-810" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Jaq5Eet6aUMGzFKZuMRR-45" value="Id string&#xa;Name string" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Jaq5Eet6aUMGzFKZuMRR-44">
+          <mxGeometry y="30" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
