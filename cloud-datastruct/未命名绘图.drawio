@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-10T10:19:46.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ZSXb6Xa6SVobc_26Y4FZ" version="20.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-10T10:35:21.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="agpWgB_WcBxyRXbNXd_n" version="20.6.2" type="github" pages="2">
   <diagram id="1bny-kd-aG_qWNULpiLh" name="第 1 页">
     <mxGraphModel dx="2377" dy="3117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -729,6 +729,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Hxi-AEPYlPFSdfLbqYYo-63" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="126" y="1890" width="1154" height="340" as="geometry" />
+        </mxCell>
         <mxCell id="Hxi-AEPYlPFSdfLbqYYo-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="207" y="1530" width="1063" height="340" as="geometry" />
         </mxCell>
@@ -1068,10 +1071,10 @@
         <mxCell id="Hxi-AEPYlPFSdfLbqYYo-38" value="cloudresource scheduler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760.5" y="2000" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Hxi-AEPYlPFSdfLbqYYo-41" value="?台CloudProvider:InstanceSku" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Hxi-AEPYlPFSdfLbqYYo-41" value="x台CloudProvider:InstanceSku" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="663" y="2090" width="198" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Hxi-AEPYlPFSdfLbqYYo-42" value="?台(?CloudProvider):InstanceSku" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Hxi-AEPYlPFSdfLbqYYo-42" value="y台(?CloudProvider):InstanceSku" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="676" y="2120" width="185" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hxi-AEPYlPFSdfLbqYYo-44" value="x台CloudProviderA:InstanceSkuA&lt;br&gt;x台CloudProviderA:InstanceSkuB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -1145,6 +1148,15 @@
         </mxCell>
         <mxCell id="Hxi-AEPYlPFSdfLbqYYo-62" value="决定用?CloudProvider的x台y类型的InstanceSku渲染任务" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="760.5" y="1940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hxi-AEPYlPFSdfLbqYYo-64" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="459" y="2320" width="401" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Hxi-AEPYlPFSdfLbqYYo-65" value="http server" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="2430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hxi-AEPYlPFSdfLbqYYo-66" value="doc up/ handler" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="631.5" y="2338" width="120" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
