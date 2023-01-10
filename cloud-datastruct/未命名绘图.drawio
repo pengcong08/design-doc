@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-10T08:16:10.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="hfcQEYDvOS-o_-10oUy2" version="20.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-10T08:16:42.981Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="7NPaLQz0bZY5Vy0xm4tH" version="20.6.2" type="github" pages="2">
   <diagram id="1bny-kd-aG_qWNULpiLh" name="第 1 页">
     <mxGraphModel dx="2377" dy="3117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -581,10 +581,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-91" value="InstanceResource" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="310" y="1190" width="180" height="120" as="geometry" />
+          <mxGeometry x="310" y="1190" width="180" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="Jaq5Eet6aUMGzFKZuMRR-92" value="TenantId string&#xa;StorageId string&#xa;CloudAccountId string&#xa;VpcId string" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Jaq5Eet6aUMGzFKZuMRR-91">
-          <mxGeometry y="30" width="180" height="90" as="geometry" />
+        <mxCell id="Jaq5Eet6aUMGzFKZuMRR-92" value="TenantId string&#xa;StorageId string&#xa;CloudAccountId string&#xa;VpcId string&#xa;EipId string&#xa;NatId string" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Jaq5Eet6aUMGzFKZuMRR-91">
+          <mxGeometry y="30" width="180" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
