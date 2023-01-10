@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-10T09:19:29.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="DFk6YnPGlfA-9a7N0bcR" version="20.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-10T09:34:18.704Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="jJszR_OIjEHuo2NB0_0M" version="20.6.2" type="github" pages="2">
   <diagram id="1bny-kd-aG_qWNULpiLh" name="第 1 页">
     <mxGraphModel dx="2377" dy="3117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -729,6 +729,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Hxi-AEPYlPFSdfLbqYYo-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="241" y="1120" width="1039" height="270" as="geometry" />
+        </mxCell>
         <mxCell id="_4bvN9Fz8ZgD41OEry59-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="440" width="1280" height="570" as="geometry" />
         </mxCell>
@@ -992,6 +995,39 @@
         </mxCell>
         <mxCell id="Hxi-AEPYlPFSdfLbqYYo-14" value="watch instance cr" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="777" y="1180" width="151" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hxi-AEPYlPFSdfLbqYYo-17" value="phase:pending&lt;br&gt;status:waitScheduler" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1604" width="144" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hxi-AEPYlPFSdfLbqYYo-19" value="phase:schedulering&lt;br&gt;status:SchedulerSuccess" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="546.5" y="1604" width="194" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hxi-AEPYlPFSdfLbqYYo-20" value="phase:schedulering&lt;br&gt;status:SchedulerFailed" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1694" width="144" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hxi-AEPYlPFSdfLbqYYo-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hxi-AEPYlPFSdfLbqYYo-17" target="Hxi-AEPYlPFSdfLbqYYo-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460.5" y="1624" as="sourcePoint" />
+            <mxPoint x="510.5" y="1574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hxi-AEPYlPFSdfLbqYYo-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hxi-AEPYlPFSdfLbqYYo-17" target="Hxi-AEPYlPFSdfLbqYYo-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450.5" y="1624" as="sourcePoint" />
+            <mxPoint x="500.5" y="1574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hxi-AEPYlPFSdfLbqYYo-23" value="phase:creating&lt;br&gt;status:CreateSuccess" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="763.5" y="1604" width="194" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hxi-AEPYlPFSdfLbqYYo-24" value="phase:creating&lt;br&gt;status:CreateFailed" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630.5" y="1704" width="194" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hxi-AEPYlPFSdfLbqYYo-25" value="phase:running&lt;br&gt;status:started" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970.5" y="1604" width="194" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hxi-AEPYlPFSdfLbqYYo-26" value="phase:running&lt;br&gt;status:Stopped" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1710" width="194" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
