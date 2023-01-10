@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-01-10T08:10:48.826Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="dKVaxurcXIvBuvscNLRI" version="20.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-10T08:16:10.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="hfcQEYDvOS-o_-10oUy2" version="20.6.2" type="github" pages="2">
   <diagram id="1bny-kd-aG_qWNULpiLh" name="第 1 页">
     <mxGraphModel dx="2377" dy="3117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Jaq5Eet6aUMGzFKZuMRR-88" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-105" y="-1310" width="1025" height="550" as="geometry" />
+        </mxCell>
         <mxCell id="GF0Z7zwpuwdb2b8EqDJZ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-370" y="2338" width="1360" height="692" as="geometry" />
-        </mxCell>
-        <mxCell id="GF0Z7zwpuwdb2b8EqDJZ-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-380" y="1420" width="1440" height="540" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-1" value="ProviderType(支持接入的云类型)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="100" width="370" height="182" as="geometry" />
@@ -23,7 +23,7 @@
           <mxGeometry y="128" width="370" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-18" value="Audit(商品审核)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-100" y="990" width="370" height="202" as="geometry" />
+          <mxGeometry x="-340" y="967" width="370" height="202" as="geometry" />
         </mxCell>
         <mxCell id="4_Z-v-eUMZZP_KY4kg9S-19" value="CommodityId string //商品id (CommodityName,CommodityType,flavor(规格))&#xa; Operator string //操作类型，上架下家&#xa; CommiterId string //申请人&#xa; Status string //审批状态&#xa; StatusTime string //审批时间&#xa; AuditorId string //审批人&#xa; Message string // 审批备注" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="4_Z-v-eUMZZP_KY4kg9S-18" vertex="1">
           <mxGeometry y="26" width="370" height="114" as="geometry" />
@@ -479,19 +479,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-44" value="ProviderType" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="330" y="-1310" width="160" height="80" as="geometry" />
+          <mxGeometry x="330" y="-1239" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-45" value="Id string&#xa;Name string" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Jaq5Eet6aUMGzFKZuMRR-44">
           <mxGeometry y="30" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-52" value="CloudAccount" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="330" y="-1170" width="160" height="80" as="geometry" />
+          <mxGeometry x="330" y="-1099" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-53" value="Id string&#xa;Name string" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Jaq5Eet6aUMGzFKZuMRR-52">
           <mxGeometry y="30" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-55" value="InstanceFlavor" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="330" y="-1050" width="160" height="90" as="geometry" />
+          <mxGeometry x="330" y="-979" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-56" value="Id string&#xa;Name string&#xa;CloudAccountId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Jaq5Eet6aUMGzFKZuMRR-55">
           <mxGeometry y="30" width="160" height="60" as="geometry" />
@@ -534,14 +534,14 @@
         </mxCell>
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-77" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Jaq5Eet6aUMGzFKZuMRR-55" target="Jaq5Eet6aUMGzFKZuMRR-53">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="-800" as="sourcePoint" />
-            <mxPoint x="470" y="-850" as="targetPoint" />
+            <mxPoint x="420" y="-729" as="sourcePoint" />
+            <mxPoint x="470" y="-779" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-78" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jaq5Eet6aUMGzFKZuMRR-52" target="Jaq5Eet6aUMGzFKZuMRR-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="660" y="-1300" as="sourcePoint" />
-            <mxPoint x="710" y="-1350" as="targetPoint" />
+            <mxPoint x="660" y="-1229" as="sourcePoint" />
+            <mxPoint x="710" y="-1279" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-80" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Jaq5Eet6aUMGzFKZuMRR-58" target="Jaq5Eet6aUMGzFKZuMRR-52">
@@ -550,7 +550,7 @@
             <mxPoint x="560" y="-1090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jaq5Eet6aUMGzFKZuMRR-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Jaq5Eet6aUMGzFKZuMRR-66">
+        <mxCell id="Jaq5Eet6aUMGzFKZuMRR-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jaq5Eet6aUMGzFKZuMRR-66" target="Jaq5Eet6aUMGzFKZuMRR-53">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="-760" as="sourcePoint" />
             <mxPoint x="490" y="-1130" as="targetPoint" />
@@ -579,6 +579,12 @@
             <mxPoint x="260" y="-1010" as="sourcePoint" />
             <mxPoint x="310" y="-1060" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Jaq5Eet6aUMGzFKZuMRR-91" value="InstanceResource" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1190" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Jaq5Eet6aUMGzFKZuMRR-92" value="TenantId string&#xa;StorageId string&#xa;CloudAccountId string&#xa;VpcId string" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Jaq5Eet6aUMGzFKZuMRR-91">
+          <mxGeometry y="30" width="180" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
