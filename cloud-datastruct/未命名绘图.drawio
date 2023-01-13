@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T06:54:24.523Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="IVSDWprue0hV9U9lM2Bi" version="20.8.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-13T07:03:52.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="WwhLhaMD67IIdkucAziK" version="20.8.3" type="github" pages="2">
   <diagram id="1bny-kd-aG_qWNULpiLh" name="第 1 页">
     <mxGraphModel dx="2389" dy="3175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -751,12 +751,12 @@
           <mxGeometry x="241" y="1120" width="1039" height="270" as="geometry" />
         </mxCell>
         <mxCell id="_4bvN9Fz8ZgD41OEry59-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="440" width="1280" height="570" as="geometry" />
+          <mxGeometry x="30" y="440" width="1280" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-2" value="vm scheduler&lt;br&gt;vm需要调度到哪一个云上&lt;br&gt;对于渲染机器这个scheduler可以不要" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="QNCpgvojgTOF3lNCObod-2" value="guest scheduler&lt;br&gt;vm需要调度到哪一个云上&lt;br&gt;对于渲染机器这个scheduler可以不要" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="630" y="600" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-3" value="provider(k8s kubelet)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="QNCpgvojgTOF3lNCObod-3" value="cloudlet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="951" y="850" width="190" height="45.99" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.115;exitY=1.023;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="QNCpgvojgTOF3lNCObod-2" edge="1">
@@ -765,8 +765,8 @@
             <mxPoint x="654" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-5" value="1.watch unschedulerd vm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="510" y="680" width="150" height="30" as="geometry" />
+        <mxCell id="QNCpgvojgTOF3lNCObod-5" value="1.watch unschedulerd guest" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="521.5" y="691.41" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.842;entryY=1.047;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="QNCpgvojgTOF3lNCObod-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -774,7 +774,7 @@
             <mxPoint x="981" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-7" value="1.watch&amp;nbsp; schedulerd on vm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="QNCpgvojgTOF3lNCObod-7" value="1.watch&amp;nbsp; schedulered guest" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="850" y="770" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.595;exitY=0;exitDx=0;exitDy=0;entryX=0.469;entryY=1.075;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="QNCpgvojgTOF3lNCObod-19" target="QNCpgvojgTOF3lNCObod-2" edge="1">
@@ -783,10 +783,10 @@
             <mxPoint x="780" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-12" value="7.vm resource created event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="660" y="661.41" width="150" height="30" as="geometry" />
+        <mxCell id="QNCpgvojgTOF3lNCObod-12" value="7.guest resource created event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="643.5" y="650" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-13" value="9 .vm resource schedulerd event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="QNCpgvojgTOF3lNCObod-13" value="9 .guest resource schedulerd event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="960" y="810" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-14" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="QNCpgvojgTOF3lNCObod-3" edge="1">
@@ -861,7 +861,7 @@
             <mxPoint x="560" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-31" value="6.create vm resource" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="QNCpgvojgTOF3lNCObod-31" value="6.create guest resource" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="510" y="770" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.027;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="QNCpgvojgTOF3lNCObod-33" target="QNCpgvojgTOF3lNCObod-19" edge="1">
@@ -894,7 +894,7 @@
         <mxCell id="QNCpgvojgTOF3lNCObod-29" value="5.RenderJob updated event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="431" y="800" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-40" value="1.watch vm resource" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="QNCpgvojgTOF3lNCObod-40" value="1.watch guest resource" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="340" y="770" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="QNCpgvojgTOF3lNCObod-2" edge="1">
@@ -903,11 +903,11 @@
             <mxPoint x="788" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-42" value="8.update scheduler info of vm resource&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="740" y="693.42" width="150" height="30" as="geometry" />
+        <mxCell id="QNCpgvojgTOF3lNCObod-42" value="8.update scheduler info of guest resource&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="732.5" y="693.42" width="147.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-44" value="rendering prior info" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="277.5" y="520" width="126" height="28" as="geometry" />
+          <mxGeometry x="110" y="520" width="126" height="28" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-45" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -915,7 +915,7 @@
             <mxPoint x="1100" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-46" value="10 .create vm instance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="QNCpgvojgTOF3lNCObod-46" value="10 .create guest instance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1091" y="770" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-47" value="资源池(只针对自研IAAS)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -924,8 +924,8 @@
         <mxCell id="QNCpgvojgTOF3lNCObod-48" value="主机这种商品" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="751.5" y="490" width="107" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-49" value="商品model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="341.5" y="570" width="107" height="30" as="geometry" />
+        <mxCell id="QNCpgvojgTOF3lNCObod-49" value="sku model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="390" y="570" width="107" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-51" value="render job model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="880" width="107" height="30" as="geometry" />
@@ -933,13 +933,13 @@
         <mxCell id="QNCpgvojgTOF3lNCObod-52" value="render job model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="570" width="107" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-53" value="vm model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="553" y="890" width="107" height="30" as="geometry" />
+        <mxCell id="QNCpgvojgTOF3lNCObod-53" value="guest model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="542" y="880" width="107" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-54" value="vm model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="QNCpgvojgTOF3lNCObod-54" value="guest model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="589" y="570" width="107" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QNCpgvojgTOF3lNCObod-55" value="vm model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="QNCpgvojgTOF3lNCObod-55" value="guest model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1010" y="895.99" width="107" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QNCpgvojgTOF3lNCObod-56" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" source="QNCpgvojgTOF3lNCObod-44" edge="1">
@@ -957,7 +957,7 @@
             <mxPoint x="1290" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_4bvN9Fz8ZgD41OEry59-3" value="1.watch&amp;nbsp; schedulerd on vm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="_4bvN9Fz8ZgD41OEry59-3" value="1.watch&amp;nbsp; schedulered guest" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="890" y="650" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_4bvN9Fz8ZgD41OEry59-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.938;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="QNCpgvojgTOF3lNCObod-19" target="_4bvN9Fz8ZgD41OEry59-1" edge="1">
@@ -966,7 +966,7 @@
             <mxPoint x="1260" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_4bvN9Fz8ZgD41OEry59-5" value="11 .vm resource created event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="_4bvN9Fz8ZgD41OEry59-5" value="11 .guest resource created event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1040" y="680" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hxi-AEPYlPFSdfLbqYYo-1" value="gin apiserver" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1438,6 +1438,24 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="700" y="4450" as="sourcePoint" />
             <mxPoint x="810" y="4570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fymi2Mr3nQfceqzwFyey-1" value="resource pool info" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="249" y="520" width="126" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="fymi2Mr3nQfceqzwFyey-2" value="sku info" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="383" y="520" width="170" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="fymi2Mr3nQfceqzwFyey-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="fymi2Mr3nQfceqzwFyey-1" target="QNCpgvojgTOF3lNCObod-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="660" as="sourcePoint" />
+            <mxPoint x="520" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fymi2Mr3nQfceqzwFyey-4" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fymi2Mr3nQfceqzwFyey-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="660" as="sourcePoint" />
+            <mxPoint x="340" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
