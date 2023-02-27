@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T06:31:26.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="5Jh-nKNeQryj3Ro6h44I" version="20.8.20" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-27T06:32:27.350Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="SiGsNJ1u_zA6lAgEq4D3" version="20.8.20" type="github" pages="2">
   <diagram id="1bny-kd-aG_qWNULpiLh" name="第 1 页">
     <mxGraphModel dx="2389" dy="3175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -587,10 +587,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-91" value="Guest" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="161.5" y="1290" width="180" height="140" as="geometry" />
+          <mxGeometry x="161.5" y="1290" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-92" value="	OwnerId   string&#xa;	ProjectId string " style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="Jaq5Eet6aUMGzFKZuMRR-91" vertex="1">
-          <mxGeometry y="30" width="180" height="110" as="geometry" />
+          <mxGeometry y="30" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-93" value="Vpc" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="405" y="1290" width="180" height="100" as="geometry" />
@@ -601,17 +601,17 @@
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-97" value="Nat" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="632" y="1429" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Jaq5Eet6aUMGzFKZuMRR-98" value="TenantId string&#xa;Id string&#xa;Name string&#xa;VpcId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="Jaq5Eet6aUMGzFKZuMRR-97" vertex="1">
+        <mxCell id="Jaq5Eet6aUMGzFKZuMRR-98" value="OwnerId         string&#xa;	CloudResourceId string&#xa;	Type            int64" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="Jaq5Eet6aUMGzFKZuMRR-97" vertex="1">
           <mxGeometry y="30" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-99" value="Eip" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="405" y="1431" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Jaq5Eet6aUMGzFKZuMRR-100" value="TenantId string&#xa;Id string&#xa;Name string" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="Jaq5Eet6aUMGzFKZuMRR-99" vertex="1">
+        <mxCell id="Jaq5Eet6aUMGzFKZuMRR-100" value="OwnerId         string &#xa;	CloudResourceId string &#xa;	Bindwidth       int &#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="Jaq5Eet6aUMGzFKZuMRR-99" vertex="1">
           <mxGeometry y="30" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-101" value="Disk" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="161.5" y="1470" width="177.5" height="90" as="geometry" />
+          <mxGeometry x="161.5" y="1420" width="177.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Jaq5Eet6aUMGzFKZuMRR-102" value="	OwnerId         string &#xa;	CloudResourceId string &#xa;	Size            int64 " style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="Jaq5Eet6aUMGzFKZuMRR-101" vertex="1">
           <mxGeometry y="30" width="177.5" height="60" as="geometry" />
